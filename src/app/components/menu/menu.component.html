@@ -1,0 +1,27 @@
+<header>
+    <nav>
+        <div class="logo">
+          <p>M.R </p>
+        </div>
+        <div class="icono-menu"  (click)="open_menu()" >
+            <img src="../../../assets/img/icon-menu.svg" alt="icono de menu hamburgueza">
+        </div>  
+    <div class="menu"  [ngStyle]="{'right': estado_menu ? '0%' : '' }" > 
+        <div class="close" (click)="open_menu()">
+            <img  src="../../../assets/img/icon-close.svg" alt="icono de close menu" >
+        </div>
+         
+        <div class="nav-bar">
+            <a href="#section2">Sobre mi</a>
+            <a href="#section4">Portafolio</a>
+            <a href="#section5">Contacto</a>
+        </div>
+        <div class="redes">
+            <a href="https://github.com/MichaelSRD" target="_blank" > <img src="../../../assets/img/icons8-github.svg" alt="icono de githud"></a>
+            <a href="#section5"> <img src="../../../assets/img/icons8-gmail (1).svg" alt="icono de gmail"> </a>
+            <a href="#"> <img src="../../../assets/img/icons8-twitter.svg" alt="icono twiter"> </a>
+        </div>
+    </div>
+
+    </nav>
+</header>
